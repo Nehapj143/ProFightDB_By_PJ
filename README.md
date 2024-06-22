@@ -22,3 +22,22 @@ A Telegram bot that provides wrestler information from ProFightDB directly in yo
    ```bash
    git clone https://github.com/yourusername/ProFightDBTelegramBot.git
    cd ProFightDBTelegramBot
+Install dependencies
+
+bash
+Copy code
+pip install -r requirements.txt
+Configure your Telegram Bot Token
+
+Replace YOUR_TELEGRAM_BOT_TOKEN_HERE in bot.py and log.py with your actual Telegram bot token obtained from BotFather
+Run the bot
+
+bash
+Copy code
+python bot.py
+Interact with the bot
+
+Start your Telegram bot and use commands /start, /help, and /search wrestler_name in your group chat to interact with the bot.
+Compliance
+
+Respect ProFightDB's terms of service when scraping data. Ensure your bot's usage complies with legal and ethical standards
