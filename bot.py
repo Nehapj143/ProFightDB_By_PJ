@@ -1,5 +1,5 @@
 import logging
-from telegram import Update, ParseMode
+from telegram.constants import ParseMode
 from telegram.ext import Updater, CommandHandler, MessageHandler, filters, CallbackContext
 import requests
 from bs4 import BeautifulSoup
