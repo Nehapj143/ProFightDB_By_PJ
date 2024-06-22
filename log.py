@@ -1,8 +1,8 @@
 # log.py
 from telegram import Bot
 
-TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN_HERE'
-LOG_CHANNEL_ID = 'YOUR_LOG_CHANNEL_ID_HERE'
+TOKEN = '7198911495:AAHrRwSFiu8l6ONgDbUXiVCdCJxXPeHNYCc'
+LOG_CHANNEL_ID = '-1001329275814'
 
 def log_message(message):
     bot = Bot(token=TOKEN)
