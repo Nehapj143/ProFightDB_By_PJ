@@ -5,7 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # Telegram Bot Token
-TOKEN = '7198911495:AAHrRwSFiu8l6ONgDbUXiVCdCJxXPeHNYCc'
+BOT_TOKEN = '7198911495:AAHrRwSFiu8l6ONgDbUXiVCdCJxXPeHNYCc'
 
 # ProFightDB URL
 PROFIGHTDB_URL = 'http://www.profightdb.com/'
