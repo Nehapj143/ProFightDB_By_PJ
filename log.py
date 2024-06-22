@@ -1,7 +1,7 @@
 # log.py
 from telegram import Bot
 
-TOKEN = '7198911495:AAHrRwSFiu8l6ONgDbUXiVCdCJxXPeHNYCc'
+BOT_TOKEN = '7198911495:AAHrRwSFiu8l6ONgDbUXiVCdCJxXPeHNYCc'
 LOG_CHANNEL_ID = '-1001329275814'
 
 def log_message(message):
