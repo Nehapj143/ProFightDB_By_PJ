@@ -1,6 +1,6 @@
 import logging
 from telegram.constants import ParseMode
-from telegram.ext import Updater, CommandHandler, MessageHandler, filters, CallbackContext
+from telegram.exe import Updater, CommandHandler, MessageHandler, filters, CallbackContext
 import requests
 from bs4 import BeautifulSoup
 
