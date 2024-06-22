@@ -1,12 +1,11 @@
-# log.py
-from telegram import Bot
+import telebot
 
-BOT_TOKEN = '7198911495:AAHrRwSFiu8l6ONgDbUXiVCdCJxXPeHNYCc'
-LOG_CHANNEL_ID = '-1001329275814'
+# Initialize Telegram Bot
+bot = telebot.TeleBot('YOUR_TELEGRAM_BOT_TOKEN')
 
+# Log channel ID
+LOG_CHANNEL_ID = '@your_log_channel_username'  # Replace with your log channel username or ID
+
+# Function to log messages to the log channel
 def log_message(message):
-    bot = Bot(token=TOKEN)
-    bot.send_message(chat_id=LOG_CHANNEL_ID, text=message)
-
-if __name__ == '__main__':
-    log_message("This is a test log message.")
+    bot.send_message(LOG_CHANNEL_ID, message)
