@@ -8,6 +8,13 @@ bot = telebot.TeleBot('7198911495:AAHrRwSFiu8l6ONgDbUXiVCdCJxXPeHNYCc')
 # Initialize Wikipedia API
 wiki_wiki = wikipediaapi.Wikipedia('en')  # Adjust language as needed
 
+# Log channel ID
+LOG_CHANNEL_ID = '@your_log_channel_username'  # Replace with your log channel username or ID
+
+# Function to log messages to the log channel
+def log_message(message):
+    bot.send_message(LOG_CHANNEL_ID, message)
+
 # Command handler for '/wiki' command
 @bot.message_handler(commands=['wiki'])
 def send_wikipedia_summary(message):
