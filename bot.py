@@ -3,7 +3,7 @@ import wikipediaapi
 from log import log_message  # Import the log_message function from log.py
 
 # Initialize Telegram Bot
-bot = telebot.TeleBot('YOUR_TELEGRAM_BOT_TOKEN')
+bot = telebot.TeleBot('7198911495:AAHrRwSFiu8l6ONgDbUXiVCdCJxXPeHNYCc')
 
 # Initialize Wikipedia API
 wiki_wiki = wikipediaapi.Wikipedia('en')  # Adjust language as needed
