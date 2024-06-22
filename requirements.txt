@@ -1,0 +1,4 @@
+```plaintext
+python-telegram-bot
+requests
+beautifulsoup4
