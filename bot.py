@@ -37,5 +37,6 @@ def send_wikipedia_summary(message):
         bot.reply_to(message, f"Error: {str(e)}")
         log_message(f"HTTPError occurred: {str(e)}")
 
-# Polling mechanism to start listening for messages
-bot.polling()
+# Add this line at the end of your bot.py or main application file
+bot.polling(none_stop=True, interval=0, timeout=20)  # Replace with appropriate values
+
