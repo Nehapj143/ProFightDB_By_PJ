@@ -14,7 +14,7 @@ wiki_wiki = wikipediaapi.Wikipedia(
 )
 
 # Log channel ID
-LOG_CHANNEL_ID = '@-1001329275814'  # Replace with your log channel username or ID
+LOG_CHANNEL_ID = '-1001329275814'  # Replace with your log channel username or ID
 
 # Function to log messages to the log channel
 def log_message(message):
